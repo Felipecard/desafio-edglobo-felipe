@@ -1,0 +1,307 @@
+
+/* ----------------------------------- HEADER -------   */
+
+.header {
+    background-color: #004861;
+    height: 100px; 
+    display: flex; 
+}
+
+.logo {
+    text-align: center;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.menu {
+    font-size: 40px;
+    float: left;
+    color: white;
+    margin: 20px 0 0 30px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .body {
+        width: auto;
+    }
+
+    .header {
+        height: 70px; 
+        width: auto;
+    }
+
+    .logo {
+        text-align: center;
+        width: 200px;
+    }
+
+    .menu {
+        font-size: 20px;
+    }
+}
+
+
+/* ----------------------------------- FIRST LINE -------   */
+
+
+
+.firstNews {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+}
+
+.articleFirtNews {
+    margin-right: 15px;
+    position: relative; 
+    width: auto;
+}
+
+.image1 {
+    height: 100%;
+    margin-right: 30px;
+}
+
+.image2 {
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 15px;
+    color: white;
+    line-height: 5px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .firstNews {
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 30px;  
+    }
+
+    .image1 {
+        width: 104%;
+    }
+
+    .image2 {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .text {
+        position: relative;
+        margin-left: 10px;
+        color: black;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+/* ------------- SECOND LINE -------   */
+
+.secondNews {
+    display: flex;
+    margin: 30px 30px 30px 0px;
+    justify-content: center;
+}
+
+.text2 {
+    float: right;
+    margin-left: 10px;
+    max-width: 220px;
+}
+
+.image4 {
+    margin-left: 65px;
+}
+
+hr {
+    display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .secondNews {
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 30px;  
+    }
+
+    .image3 {
+        width: 105px;
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .image4 {
+        width: 105px;
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .article {
+        display: flex;
+    }
+
+    .text2 {
+        margin-left: 5px;
+        max-width: 200px;
+        font-size: 11px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    hr {
+        display: flex;
+    }
+
+}
+
+
+/* ----------------------------------- THIRD NEWS -------   */
+
+
+.thirdNews {
+    display: flex;
+    margin: 30px 30px 30px 0px;
+    justify-content: center;
+}
+
+
+.imageLine3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.text4 { 
+    line-height: 12px;
+    font-size: 12px;
+    max-width: 210px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.paragrafo {
+    font-size: 15px;
+    max-width: 210px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .thirdNews {
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 30px;  
+    }
+
+    .imageLine3 {
+        width: 150px;
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .text4 { 
+        font-size: 13px;
+        max-width: 190px;
+        margin-left: 0px;
+        
+    }
+
+}
+
+/* ----------------------------------- BANNER -------   */
+
+.banner {
+    background-color: rgb(196, 195, 195);
+    width: 100%;
+    height: 180px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .banner {
+        height: 120px;
+    }
+}
+
+
+/* ----------------------------------- MINI TITLES -------   */
+
+
+.miniTitle {
+    margin: 40px 0 -10px 130px;
+    color: #004861;
+}
+
+@media screen and (max-width: 700px) {
+
+    .miniTitle {
+        margin-left: 0;
+    }
+}
+
+
+/* ----------------------------------- FOOTER -------   */
+
+footer {
+    background-color: rgb(210,215,31);
+    height: 70px;
+    display: flex;
+}
+
+.logoFooter {
+    display: block;
+    margin: auto auto auto 50px;
+    width: 170px;
+}
+
+.copyRight {
+    margin-right: 50px;
+    text-align: right;
+}
+
+.footerRespoonsive {
+    display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .logoFooter {
+        margin: auto;
+    }
+
+    .copyRight {
+        display: none;
+    }
+
+    .footerRespoonsive {
+        background-color: #004861;
+        height: 70px;  
+        text-align: center;
+        color: white; 
+        display: flex;
+    }
+
+    .copyRightResponsive {
+        margin: auto;
+    }
+}
